@@ -35,34 +35,34 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.BasePrice = new System.Windows.Forms.TextBox();
+            this.AdditionalOptions = new System.Windows.Forms.TextBox();
+            this.SubTotal = new System.Windows.Forms.TextBox();
+            this.SalesTax = new System.Windows.Forms.TextBox();
+            this.Total = new System.Windows.Forms.TextBox();
+            this.TradeInAllowance = new System.Windows.Forms.TextBox();
+            this.AmountDue = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fontToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.colorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Computernavigation = new System.Windows.Forms.CheckBox();
+            this.Leatherinterior = new System.Windows.Forms.CheckBox();
+            this.Stereosystem = new System.Windows.Forms.CheckBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.Customizeddetailing = new System.Windows.Forms.RadioButton();
+            this.Pearlized = new System.Windows.Forms.RadioButton();
+            this.Standard = new System.Windows.Forms.RadioButton();
+            this.Calculate = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
+            this.Exit = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -132,61 +132,61 @@
             this.label7.TabIndex = 6;
             this.label7.Text = "Amount Due:";
             // 
-            // textBox1
+            // BasePrice
             // 
-            this.textBox1.Location = new System.Drawing.Point(147, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 7;
+            this.BasePrice.Location = new System.Drawing.Point(147, 34);
+            this.BasePrice.Name = "BasePrice";
+            this.BasePrice.Size = new System.Drawing.Size(100, 20);
+            this.BasePrice.TabIndex = 7;
             // 
-            // textBox2
+            // AdditionalOptions
             // 
-            this.textBox2.Location = new System.Drawing.Point(147, 72);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 8;
+            this.AdditionalOptions.Location = new System.Drawing.Point(147, 72);
+            this.AdditionalOptions.Name = "AdditionalOptions";
+            this.AdditionalOptions.ReadOnly = true;
+            this.AdditionalOptions.Size = new System.Drawing.Size(100, 20);
+            this.AdditionalOptions.TabIndex = 8;
             // 
-            // textBox3
+            // SubTotal
             // 
-            this.textBox3.Location = new System.Drawing.Point(147, 98);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 9;
+            this.SubTotal.Location = new System.Drawing.Point(147, 98);
+            this.SubTotal.Name = "SubTotal";
+            this.SubTotal.ReadOnly = true;
+            this.SubTotal.Size = new System.Drawing.Size(100, 20);
+            this.SubTotal.TabIndex = 9;
             // 
-            // textBox4
+            // SalesTax
             // 
-            this.textBox4.Location = new System.Drawing.Point(147, 130);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 10;
+            this.SalesTax.Location = new System.Drawing.Point(147, 130);
+            this.SalesTax.Name = "SalesTax";
+            this.SalesTax.ReadOnly = true;
+            this.SalesTax.Size = new System.Drawing.Size(100, 20);
+            this.SalesTax.TabIndex = 10;
             // 
-            // textBox5
+            // Total
             // 
-            this.textBox5.Location = new System.Drawing.Point(147, 159);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 11;
+            this.Total.Location = new System.Drawing.Point(147, 159);
+            this.Total.Name = "Total";
+            this.Total.ReadOnly = true;
+            this.Total.Size = new System.Drawing.Size(100, 20);
+            this.Total.TabIndex = 11;
             // 
-            // textBox6
+            // TradeInAllowance
             // 
-            this.textBox6.Location = new System.Drawing.Point(147, 193);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
-            this.textBox6.TabIndex = 12;
-            this.textBox6.Text = "0";
-            this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.TradeInAllowance.Location = new System.Drawing.Point(147, 193);
+            this.TradeInAllowance.Name = "TradeInAllowance";
+            this.TradeInAllowance.Size = new System.Drawing.Size(100, 20);
+            this.TradeInAllowance.TabIndex = 12;
+            this.TradeInAllowance.Text = "0";
+            this.TradeInAllowance.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox7
+            // AmountDue
             // 
-            this.textBox7.Location = new System.Drawing.Point(147, 223);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
-            this.textBox7.TabIndex = 13;
+            this.AmountDue.Location = new System.Drawing.Point(147, 223);
+            this.AmountDue.Name = "AmountDue";
+            this.AmountDue.ReadOnly = true;
+            this.AmountDue.Size = new System.Drawing.Size(100, 20);
+            this.AmountDue.TabIndex = 13;
             // 
             // menuStrip1
             // 
@@ -209,6 +209,13 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
             // editToolStripMenuItem
             // 
             this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -219,6 +226,33 @@
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "Edit";
+            // 
+            // calculateToolStripMenuItem
+            // 
+            this.calculateToolStripMenuItem.Name = "calculateToolStripMenuItem";
+            this.calculateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.calculateToolStripMenuItem.Text = "Calculate";
+            this.calculateToolStripMenuItem.Click += new System.EventHandler(this.calculateToolStripMenuItem_Click);
+            // 
+            // clearToolStripMenuItem
+            // 
+            this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.clearToolStripMenuItem.Text = "Clear";
+            // 
+            // fontToolStripMenuItem
+            // 
+            this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
+            this.fontToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fontToolStripMenuItem.Text = "Font...";
+            this.fontToolStripMenuItem.Click += new System.EventHandler(this.fontToolStripMenuItem_Click);
+            // 
+            // colorToolStripMenuItem
+            // 
+            this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
+            this.colorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.colorToolStripMenuItem.Text = "Color...";
+            this.colorToolStripMenuItem.Click += new System.EventHandler(this.colorToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -238,9 +272,9 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.Computernavigation);
+            this.groupBox1.Controls.Add(this.Leatherinterior);
+            this.groupBox1.Controls.Add(this.Stereosystem);
             this.groupBox1.Location = new System.Drawing.Point(306, 34);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(160, 127);
@@ -248,41 +282,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Additional Items";
             // 
-            // checkBox3
+            // Computernavigation
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(15, 92);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(125, 17);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Computer Navigation";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.Computernavigation.AutoSize = true;
+            this.Computernavigation.Location = new System.Drawing.Point(15, 92);
+            this.Computernavigation.Name = "Computernavigation";
+            this.Computernavigation.Size = new System.Drawing.Size(125, 17);
+            this.Computernavigation.TabIndex = 2;
+            this.Computernavigation.Text = "Computer Navigation";
+            this.Computernavigation.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // Leatherinterior
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(15, 51);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(97, 17);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "Leather Interior";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.Leatherinterior.AutoSize = true;
+            this.Leatherinterior.Location = new System.Drawing.Point(15, 51);
+            this.Leatherinterior.Name = "Leatherinterior";
+            this.Leatherinterior.Size = new System.Drawing.Size(97, 17);
+            this.Leatherinterior.TabIndex = 1;
+            this.Leatherinterior.Text = "Leather Interior";
+            this.Leatherinterior.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // Stereosystem
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(15, 28);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(94, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Stereo System";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.Stereosystem.AutoSize = true;
+            this.Stereosystem.Location = new System.Drawing.Point(15, 28);
+            this.Stereosystem.Name = "Stereosystem";
+            this.Stereosystem.Size = new System.Drawing.Size(94, 17);
+            this.Stereosystem.TabIndex = 0;
+            this.Stereosystem.Text = "Stereo System";
+            this.Stereosystem.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton1);
+            this.groupBox2.Controls.Add(this.Customizeddetailing);
+            this.groupBox2.Controls.Add(this.Pearlized);
+            this.groupBox2.Controls.Add(this.Standard);
             this.groupBox2.Location = new System.Drawing.Point(306, 181);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(160, 127);
@@ -290,112 +324,85 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Exterior Finsih";
             // 
-            // radioButton3
+            // Customizeddetailing
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(15, 103);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(123, 17);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.Text = "Customized Detailing";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.Customizeddetailing.AutoSize = true;
+            this.Customizeddetailing.Location = new System.Drawing.Point(15, 103);
+            this.Customizeddetailing.Name = "Customizeddetailing";
+            this.Customizeddetailing.Size = new System.Drawing.Size(123, 17);
+            this.Customizeddetailing.TabIndex = 2;
+            this.Customizeddetailing.Text = "Customized Detailing";
+            this.Customizeddetailing.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // Pearlized
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(15, 62);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(68, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.Text = "Pearlized";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.Pearlized.AutoSize = true;
+            this.Pearlized.Location = new System.Drawing.Point(15, 62);
+            this.Pearlized.Name = "Pearlized";
+            this.Pearlized.Size = new System.Drawing.Size(68, 17);
+            this.Pearlized.TabIndex = 1;
+            this.Pearlized.Text = "Pearlized";
+            this.Pearlized.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // Standard
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(15, 30);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(68, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Standard";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Standard.AutoSize = true;
+            this.Standard.Checked = true;
+            this.Standard.Location = new System.Drawing.Point(15, 30);
+            this.Standard.Name = "Standard";
+            this.Standard.Size = new System.Drawing.Size(68, 17);
+            this.Standard.TabIndex = 0;
+            this.Standard.TabStop = true;
+            this.Standard.Text = "Standard";
+            this.Standard.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Calculate
             // 
-            this.button1.Location = new System.Drawing.Point(12, 319);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 35);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Calculate.Location = new System.Drawing.Point(12, 319);
+            this.Calculate.Name = "Calculate";
+            this.Calculate.Size = new System.Drawing.Size(75, 35);
+            this.Calculate.TabIndex = 8;
+            this.Calculate.Text = "Calculate";
+            this.Calculate.UseVisualStyleBackColor = true;
+            this.Calculate.Click += new System.EventHandler(this.Calculate_Click);
             // 
-            // button2
+            // Clear
             // 
-            this.button2.Location = new System.Drawing.Point(195, 319);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 35);
-            this.button2.TabIndex = 17;
-            this.button2.Text = "Clear";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Clear.Location = new System.Drawing.Point(195, 319);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(75, 35);
+            this.Clear.TabIndex = 17;
+            this.Clear.Text = "Clear";
+            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // Exit
             // 
-            this.button3.Location = new System.Drawing.Point(391, 319);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 40);
-            this.button3.TabIndex = 18;
-            this.button3.Text = "Exit";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            // 
-            // calculateToolStripMenuItem
-            // 
-            this.calculateToolStripMenuItem.Name = "calculateToolStripMenuItem";
-            this.calculateToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.calculateToolStripMenuItem.Text = "Calculate";
-            // 
-            // clearToolStripMenuItem
-            // 
-            this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.clearToolStripMenuItem.Text = "Clear";
-            // 
-            // fontToolStripMenuItem
-            // 
-            this.fontToolStripMenuItem.Name = "fontToolStripMenuItem";
-            this.fontToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.fontToolStripMenuItem.Text = "Font...";
-            // 
-            // colorToolStripMenuItem
-            // 
-            this.colorToolStripMenuItem.Name = "colorToolStripMenuItem";
-            this.colorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.colorToolStripMenuItem.Text = "Color...";
+            this.Exit.Location = new System.Drawing.Point(391, 319);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(75, 40);
+            this.Exit.TabIndex = 18;
+            this.Exit.Text = "Exit";
+            this.Exit.UseVisualStyleBackColor = true;
+            this.Exit.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(469, 389);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Exit);
+            this.Controls.Add(this.Clear);
+            this.Controls.Add(this.Calculate);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.AmountDue);
+            this.Controls.Add(this.TradeInAllowance);
+            this.Controls.Add(this.Total);
+            this.Controls.Add(this.SalesTax);
+            this.Controls.Add(this.SubTotal);
+            this.Controls.Add(this.AdditionalOptions);
+            this.Controls.Add(this.BasePrice);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -427,28 +434,28 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox BasePrice;
+        private System.Windows.Forms.TextBox AdditionalOptions;
+        private System.Windows.Forms.TextBox SubTotal;
+        private System.Windows.Forms.TextBox SalesTax;
+        private System.Windows.Forms.TextBox Total;
+        private System.Windows.Forms.TextBox TradeInAllowance;
+        private System.Windows.Forms.TextBox AmountDue;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox Computernavigation;
+        private System.Windows.Forms.CheckBox Leatherinterior;
+        private System.Windows.Forms.CheckBox Stereosystem;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.RadioButton Customizeddetailing;
+        private System.Windows.Forms.RadioButton Pearlized;
+        private System.Windows.Forms.RadioButton Standard;
+        private System.Windows.Forms.Button Calculate;
+        private System.Windows.Forms.Button Clear;
+        private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calculateToolStripMenuItem;
